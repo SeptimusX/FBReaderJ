@@ -437,6 +437,10 @@
 				<node name="summaryOn" value="وقتي دستگاه در حالت خواب است صفحه نمايش به خواب نرود"/>
 				<node name="summaryOff" value="حتی در حالت شارژ هم صفحه نمایش خاموش باشد"/>
 			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu" toBeTranslated="true">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="text" value="متن">
 			<node name="summary" value="فونت، فاصله گذاري و ..."/>
@@ -932,6 +936,8 @@
 			<node name="removeFromFavorites" value="پاك كردن از علاقمندي"/>
 			<node name="markAsRead" value="علامت بعنوان خوانده شده"/>
 			<node name="markAsUnread" value="علامت بعنوان خوانده نشده "/>
+			<node name="plugin" value="Plugin" toBeTranslated="true"/>
+			<node name="premium" value="Premium" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Go to page" toBeTranslated="true"/>
 		<node name="plugin">

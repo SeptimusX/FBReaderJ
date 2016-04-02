@@ -438,6 +438,10 @@
 				<node name="summaryOn" value="Спречава екран да зацрни ако се уређај пуни."/>
 				<node name="summaryOff" value="Искључује екран ако се уређај пуни."/>
 			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu" toBeTranslated="true">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="text" value="Текст">
 			<node name="summary" value="Фонт, хифенација итд."/>
@@ -933,6 +937,8 @@
 			<node name="removeFromFavorites" value="Уклони из омиљених"/>
 			<node name="markAsRead" value="Mark as read" toBeTranslated="true"/>
 			<node name="markAsUnread" value="Mark as unread" toBeTranslated="true"/>
+			<node name="plugin" value="Plugin" toBeTranslated="true"/>
+			<node name="premium" value="Premium" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Иди на страницу"/>
 		<node name="plugin">

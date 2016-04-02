@@ -428,6 +428,10 @@
 				<node name="summaryOn" value="Μη απενεργοποίηση της οθόνης τν ώρα της φόρτωσης."/>
 				<node name="summaryOff" value="Απενεργοποίηση της οθόνης την ώρα της φόρτωσης."/>
 			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu" toBeTranslated="true">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="text" value="Εμφάνιση κειμένου">
 			<node name="summary" value="Σύνολο χαρακτήρων, χωρισμός συλλαβών, κτλ."/>
@@ -931,6 +935,8 @@
 			<node name="removeFromFavorites" value="Διάγραψε βιβλίο απο τα αγαπημένα"/>
 			<node name="markAsRead" value="Mark as read" toBeTranslated="true"/>
 			<node name="markAsUnread" value="Mark as unread" toBeTranslated="true"/>
+			<node name="plugin" value="Plugin" toBeTranslated="true"/>
+			<node name="premium" value="Premium" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Πήγαινε στην σελίδα"/>
 		<node name="plugin">

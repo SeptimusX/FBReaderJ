@@ -322,7 +322,7 @@
 		<node name="toggleFullscreen" value="Schermo intero"/>
 		<node name="bookmarks" value="Segnalibri"/>
 		<node name="help" value="Aiuto"/>
-		<node name="plugins" value="Istalla plugins"/>
+		<node name="plugins" value="Installa plugins"/>
 		<node name="gotoPageNumber" value="Vai a Pagina…"/>
 	</node>
 	<node name="BookInfo">
@@ -429,6 +429,10 @@
 			<node name="dontTurnScreenOffDuringCharging" value="Disabilita spegnimento automatico schermo durante ricarica">
 				<node name="summaryOn" value="Evita spegnimento automatico dello schermo se il dispositivo è in modalità di ricarica"/>
 				<node name="summaryOff" value="Spegni schermo anche se il dispositivo è in in modalità di ricarica"/>
+			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu" toBeTranslated="true">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="text" value="Testo">
@@ -925,6 +929,8 @@
 			<node name="removeFromFavorites" value="Rimuovi da preferiti"/>
 			<node name="markAsRead" value="Segna come letto"/>
 			<node name="markAsUnread" value="Segna come non letto"/>
+			<node name="plugin" value="Plugin" toBeTranslated="true"/>
+			<node name="premium" value="Premium" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Go to page" toBeTranslated="true"/>
 		<node name="plugin">
